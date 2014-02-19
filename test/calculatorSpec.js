@@ -7,4 +7,8 @@ describe('calculator', function () {
     done();
   });
 
+  it('should return 0 with 0 arguments', function (done) {
+    Calculator.add().should.equal(0);
+    done();
+  });
 });
