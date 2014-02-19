@@ -22,4 +22,9 @@ describe('calculator', function () {
     done();
   });
 
+  it('should return the sum of integers separated by any whitespace character', function (done) {
+    Calculator.add("1\t2 3\n4").should.equal(10);
+    done();
+  });
+
 });
