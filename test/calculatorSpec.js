@@ -17,4 +17,9 @@ describe('calculator', function () {
     done();
   });
 
+  it('should return the sum of integers separated by spaces', function (done) {
+    Calculator.add('1 2 3 4').should.equal(10);
+    done();
+  });
+
 });
