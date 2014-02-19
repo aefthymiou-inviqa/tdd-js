@@ -11,4 +11,10 @@ describe('calculator', function () {
     Calculator.add().should.equal(0);
     done();
   });
+
+  it('should return the bare number', function (done) {
+    Calculator.add('4').should.equal(4);
+    done();
+  });
+
 });
