@@ -14,6 +14,13 @@
     "tests"
   ],
   "devDependencies": {
-    "chai": "~1.9.0"
+    "chai": "~1.9.0",
+    "angular-mocks": "~1.2.13"
+  },
+  "dependencies": {
+    "angular": "~1.2.13",
+    "angular-resource": "~1.2.13",
+    "angular-route": "~1.2.13",
+    "bootstrap": "~3.1.1"
   }
 }
