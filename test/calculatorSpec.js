@@ -27,4 +27,9 @@ describe('calculator', function () {
     done();
   });
 
+  it('should return the sum of integers separated by a defined separator', function (done) {
+    Calculator.add('//abc1abc2abc3abc4').should.equal(10);
+    done();
+  });
+
 });
