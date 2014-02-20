@@ -15,7 +15,9 @@
   ],
   "devDependencies": {
     "chai": "~1.9.0",
-    "angular-mocks": "~1.2.13"
+    "angular-mocks": "~1.2.13",
+    "sinon-chai": "~2.5.0",
+    "sinon": "~1.8.2"
   },
   "dependencies": {
     "angular": "~1.2.13",
